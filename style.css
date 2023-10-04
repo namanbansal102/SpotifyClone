@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    
+    font-family: 'Kanit', sans-serif;    
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.myheading{
+    color: white;
+    font-weight: bold;
+}
+
+.song-layout{
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 31vw;
+    border-radius: 20px;
+    height:7vh;
+    
+    margin-left: 70px;
+    color: black;
+    flex-direction: row;
+    
+    column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.song-title-image img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+
+}
+.song-title-image{
+    
+    width: fit-content;
+    height: fit-content;
+    margin: 4px;
+}
+.song-layout h3{
+    
+   
+}
+.song-timing-icon{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    margin-right: 20px;
+}
+.all-songs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.myheading{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.song-heading{
+    width: 650px;
+}
+.bottom-content{
+    
+    width: 99vw;
+    margin-left: 3px;
+    margin-top:69vh;
+    border-radius: 20px;
+}
+.bottom-content input{
+    width: 98vw;
+    background-color: white;
+    appearance: none;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+    appearance: none;
+    background-color: #ffffff;
+    height: 15px;
+    border-radius: 25px;
+    
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    
+    
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(2, 2, 2);
+    color: black;
+
+}
+
+.play-icons{
+    color: white;
+}
+.bottom-icons-timing-heading{
+    
+    color: white;
+    display: flex;
+    column-gap: 400px;
+    align-items: center;
+    
+}
+.current-timing{
+
+}
+.title-loading img{
+    height: 30px;
+    width: 50px;
+}
+.title-loading{
+    
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 29px;
+
+}
+.current-timing{
+    
+    height: fit-content;
+    float: right;
+    outline: auto;
+    position: relative;
+    left: 50px;
+}
+.play-icons i{
+    font-size: 40px;
+    cursor: pointer;
+}
+.play-icons{
+    display: flex;
+    column-gap: 25px;
+    border:  solid white;
+}
+.play-icons i:hover{
+    color: rgb(221, 221, 221);
+}
+.playicon{
+    cursor: pointer;
+    
+}
